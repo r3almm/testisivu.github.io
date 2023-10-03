@@ -6,4 +6,15 @@ h1{
 #otsikko {
     background-color:rgba(253, 122, 0, 0.568);
 }
-#otsikko2 {text-align:center}
+#otsikko2 {text-align:middle}
+
+#kuva {
+    max-width : 50%
+}
+
+img{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+    
