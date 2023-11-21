@@ -21,7 +21,8 @@ nav li a{
     text-decoration: none;
 }
 #kuva{
-    size:500px;
+    max-width: 900px;
+    height: 600px;
 
 
 }
