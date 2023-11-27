@@ -7,66 +7,95 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous">
-    <style>
-        header{
-            display:flex;
-            justify-content:center;
-            background-color: rgb(7, 1, 1);
-            color: rgb(160, 160, 238);
-            font-style:italic;
-            opacity:100%;
-            padding:20px;
-        }
-
-        html{
-            background-color:rgb(36, 36, 56);
-            max-width:1350px; 
-            max-height:auto;
-            
-        }
-
-        body{
-            background-color:rgb(36, 36, 56);
-        }
-
-        p{
-            color: aliceblue;
-            margin-top:0;
-            margin-bottom:0;
-            display:flex;
-            flex-direction:row;
-            align-items:flex-start;
-        }
-    </style>
+    <link rel="stylesheet" href="style3.css" type="text/css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h1>HIENO BOOTSTRAP SIVU</h1>
-                </div>
+
+    <header class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Bootstrap sivusto</h1>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <div class="col-6"> 
-            <div>
-                <p>AAAAAAAAAAAAAAAAA</p>
-            </div> 
-            <div> 
-                <p>AAAAAAAAAAAAAAAAAAAAA</p>
+    <main class="container">
+        <section class="row">
+            <article class="col-lg-6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nemo iusto. Quidem nesciunt debitis, aperiam molestias enim commodi. Numquam commodi explicabo eaque, voluptas neque quidem sapiente magnam voluptates excepturi consectetur?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, corrupti? Dicta, sit quisquam labore illum voluptas sunt aut pariatur temporibus dolore itaque doloremque exercitationem officia iste iusto ad nobis numquam?
+                </p>
+            </article>
+            <article class="col-lg-6">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, corporis sapiente blanditiis veniam minus magnam! Labore nemo culpa rerum itaque laboriosam maiores reprehenderit necessitatibus, provident, facilis reiciendis laborum? Nostrum, amet!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur explicabo, fuga atque, ea, in magni eveniet quibusdam iusto molestias modi inventore vel odio nostrum distinctio accusamus aliquam repudiandae amet possimus?  
+                </p>
+            </article>
+        </section>
+
+        <section class="row">
+            <article class="col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolores dolorem dolore! Laboriosam quis aliquam cumque fugiat. Culpa consectetur officia adipisci amet quia, recusandae magnam doloremque molestias perferendis expedita dolore.</p>
+            </article>
+            <article class="col-lg-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sint facere odit doloribus! Aut a commodi, excepturi nulla dolore iste. Tempore repellendus cupiditate ab dolores impedit nisi, possimus consequuntur! Doloribus!</p>
+            </article>
+        </section>
+
+        <div id="alatekstit">
+        <section class="row">
+            <article class="col-lg-3">
+                <p>Boostrapilla vai ilman. Puolesta: Responsiivisuus, yhtäläinen tyylikäs ulkoasu, laaja kirjasto.
+                </p>
+            </article>
+            <article class="col-lg-3">
+                <p>Bootstrapilla vai ilman. Vastaan: Luovuus kärsii, riippuvainen päivityksistä (Voi rikkoa sivun), opettelukynnys</p>
+                </article>
+            <article class="col-lg-3">
+                <p>Tuomariston kannat: Kirsi kiireinen: Puolesta, Ykä yksilöllinen: Vastaan, Piia portfoliosivu: Neutraali, Pete Perussiisti: Puolesta, Minna Monimutkainensivu: Vastaan</p>
+            </article>
+            <article class="col-lg-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum eius facilis accusantium! Quia atque velit cumque ad tenetur earum pariatur illum unde exercitationem! Magni cupiditate aperiam amet omnis vitae.</p>
+            </article>
+        </div>
+        </section>
+    </main>
+ 
+      <div class="card-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Pieni teksti</p>
+                            <a href="#" class="btn btn-primary">Ja nappikin</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Kolmas hieno kortti.</p>
+                            <a href="#" class="btn btn-primary">Tässäkin nappi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">Lisää tekstiä.</p>
+                            <a href="#" class="btn btn-primary">Ohhoh toinenkin nappi</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-    
-    
+    <footer>
+        <h3 class="fixed-bottom">Hieno footeri</h3>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>
