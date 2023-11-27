@@ -1,0 +1,63 @@
+html{
+    padding:0;
+    margin:0;
+    background-color:rgba(133, 184, 184, 0.548);
+}
+
+body{
+    max-width:100vw;
+    
+    
+}
+
+header{
+    text-align:center;
+    font-size:1.4rem;
+    text-wrap:balance;
+    font-family:Times 'Times New Roman';
+    font-weight:100;
+    text-decoration:double;
+    letter-spacing:-1px;
+    color:rgb(8, 53, 90);
+    padding-top:-10px
+    padding:10px;
+}
+
+h2{
+    font-family:monospace;
+    letter-spacing:2px;
+    padding-right:40px;
+}
+
+nav{
+    float:right;
+}
+
+nav ul{
+    list-style-type:none;
+    font-size:1.2rem;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:right;
+    padding-right:20px;
+}
+
+li{
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+a{
+    text-decoration:none;
+}
+
+.kuva1{ 
+}
+
+img{
+    max-width:300px;
+    padding-left:20px;
+    max-height:auto;
+    display:flex;
+}
