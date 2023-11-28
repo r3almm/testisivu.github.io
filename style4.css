@@ -10,6 +10,10 @@ body{
     
 }
 
+.wrapper{
+
+}
+
 header{
     text-align:center;
     font-size:1.4rem;
@@ -52,12 +56,22 @@ a{
     text-decoration:none;
 }
 
-.kuva1{ 
-}
-
 img{
     max-width:300px;
-    padding-left:20px;
     max-height:auto;
-    display:flex;
+}
+
+.kuva1{
+    padding-top:10px;
+    width:250px;
+}
+
+.kuva2{
+    padding-top:10px;
+    width:250px;
+}
+
+.kuva3{
+    padding-top:10px;
+    width:250px;
 }
