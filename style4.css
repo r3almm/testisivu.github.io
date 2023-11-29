@@ -23,18 +23,25 @@ header{
     text-decoration:double;
     letter-spacing:-1px;
     color:rgb(8, 53, 90);
-    padding-top:-10px
-    padding:10px;
+    padding-top:-10px;
+    border-style:outset;
+    border-color:rgb(209, 224, 238);
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:0px;
 }
 
-h2{
+.headeri{
     font-family:monospace;
     letter-spacing:2px;
     padding-right:40px;
+    margin:10px;
 }
 
 nav{
     float:right;
+    border-style:outset;
+    border-left-width:0px;
 }
 
 nav ul{
@@ -62,16 +69,32 @@ img{
 }
 
 .kuva1{
-    padding-top:10px;
     width:250px;
 }
 
 .kuva2{
-    padding-top:10px;
     width:250px;
 }
 
 .kuva3{
-    padding-top:10px;
     width:250px;
+}
+
+.esittelykohta{
+    padding-left:20px;
+    padding-top:25px;
+    border-style:hidden;
+    letter-spacing:1px;
+    align-items: center;
+    font-size:1.3rem;
+    text-wrap:balance;
+    max-width:750px;
+    word-break:break-all;
+}
+
+.syyt{
+    font-size:1.15rem;
+    font-family:'times';
+    letter-spacing: -0.5px;
+    font-weight: 600;
 }
